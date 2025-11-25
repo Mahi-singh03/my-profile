@@ -1,0 +1,130 @@
+{
+    "metaUpdates": {
+      "addedNickname": "Yes",
+      "nickname": "Mahi Singh",
+      "newPairsAdded": 20,
+      "datasetVersion": "1.2"
+    },
+    "newDatasetEntries": [
+      {
+        "id": "qa_035",
+        "question": "What is Manoj Barhpagga's nickname?",
+        "answer": "His nickname is Mahi Singh.",
+        "tags": ["person", "nickname"]
+      },
+      {
+        "id": "qa_036",
+        "question": "Who is also known as Mahi Singh in this dataset?",
+        "answer": "Manoj Barhpagga is also known as Mahi Singh.",
+        "tags": ["person", "alias"]
+      },
+      {
+        "id": "qa_037",
+        "question": "What development stack does Mahi Singh specialize in?",
+        "answer": "He specializes in MERN Stack (MongoDB, Express.js, React.js, Node.js).",
+        "tags": ["skills", "mern"]
+      },
+      {
+        "id": "qa_038",
+        "question": "What programming languages does Mahi Singh teach?",
+        "answer": "C, C++, Python, JavaScript and Web Development subjects.",
+        "tags": ["teaching", "skills"]
+      },
+      {
+        "id": "qa_039",
+        "question": "Which dashboard features has Mahi implemented in institute platforms?",
+        "answer": "Student and teacher dashboards with exams, certificates, and report access.",
+        "tags": ["projects", "features"]
+      },
+      {
+        "id": "qa_040",
+        "question": "What security feature did Mahi propose for the Staff Management App?",
+        "answer": "IP-based login restrictions to allow only authorized networks.",
+        "tags": ["security", "projects"]
+      },
+      {
+        "id": "qa_041",
+        "question": "What is one automation capability Mahi built?",
+        "answer": "Automatic certificate generation after final exams.",
+        "tags": ["automation", "projects"]
+      },
+      {
+        "id": "qa_042",
+        "question": "Where does Mahi deploy most of his web apps?",
+        "answer": "Most of his apps are deployed on Vercel.",
+        "tags": ["devops", "hosting"]
+      },
+      {
+        "id": "qa_043",
+        "question": "Is Mahi currently studying?",
+        "answer": "Yes, he is a final year M.Sc. IT student.",
+        "tags": ["education", "current"]
+      },
+      {
+        "id": "qa_044",
+        "question": "What is one notable feature of the Online Attendance System built by Mahi?",
+        "answer": "It includes attendance logs and admin reporting features.",
+        "tags": ["projects", "attendance"]
+      },
+      {
+        "id": "qa_045",
+        "question": "What languages can Mahi use to communicate with students?",
+        "answer": "English, Hindi and Punjabi.",
+        "tags": ["languages", "communication"]
+      },
+      {
+        "id": "qa_046",
+        "question": "Does Mahi have experience with UI design tools?",
+        "answer": "Yes, he uses Figma and Canva for UI designs.",
+        "tags": ["skills", "uiux"]
+      },
+      {
+        "id": "qa_047",
+        "question": "What makes Mahi a good technical instructor?",
+        "answer": "He teaches practical concepts with examples and builds real applications.",
+        "tags": ["teaching", "strengths"]
+      },
+      {
+        "id": "qa_048",
+        "question": "What type of freelance work is Mahi available for?",
+        "answer": "Web development projects, deployment, and training services.",
+        "tags": ["career", "freelance"]
+      },
+      {
+        "id": "qa_049",
+        "question": "Which soft skills support Mahi's teaching role?",
+        "answer": "Communication, student mentoring, and patience.",
+        "tags": ["soft_skills"]
+      },
+      {
+        "id": "qa_050",
+        "question": "What type of backend API development does Mahi have expertise in?",
+        "answer": "REST APIs with authentication and CRUD operations.",
+        "tags": ["backend", "apis"]
+      },
+      {
+        "id": "qa_051",
+        "question": "Which state in India does Mahi belong to?",
+        "answer": "Punjab, India.",
+        "tags": ["location", "person"]
+      },
+      {
+        "id": "qa_052",
+        "question": "What does MERN stand for?",
+        "answer": "MongoDB, Express.js, React.js, Node.js.",
+        "tags": ["skills", "mern"]
+      },
+      {
+        "id": "qa_053",
+        "question": "How can someone contact Mahi via email?",
+        "answer": "They can contact him at Manojbarhpagga@gmail.com.",
+        "tags": ["contact"]
+      },
+      {
+        "id": "qa_054",
+        "question": "What motivates Mahi as a developer?",
+        "answer": "Creating functional systems that solve real institute and student problems.",
+        "tags": ["personality", "motivation"]
+      }
+    ]
+  }

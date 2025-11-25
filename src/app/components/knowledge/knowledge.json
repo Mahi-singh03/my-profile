@@ -1,0 +1,261 @@
+{
+
+    "person": {
+      "id": "person_001",
+      "name": "Manoj Barhpagga",
+      "nickname": "Mahi Singh",    
+      "displayName": "Manoj",
+      "Gender":"male",
+      "role": "Full-Stack Developer (MERN) | Programmer | Instructor",
+      "summary": "Motivated full-stack developer and instructor with hands-on experience building web applications using the MERN stack, designing course content, and developing institute-grade automation tools. Comfortable delivering both production features and teaching technical concepts to students.",
+      "location": "Punjab, India",
+      "email": "Manojbarhpagga@gmail.com",
+      "phone": "+91  9781278770",
+      "github": "https://github.com/Mahi-singh03",
+      "websites": [
+        "https://www.skillupinstitute.co.in/",
+        "https://onlineattendance-two.vercel.app/",
+        "https://www.themahi.in/"
+      ],
+      "profilePicture": "https://res.cloudinary.com/dyigmfiar/image/upload/v1759339653/staff-profiles/cyo6hxrgvyf5d1hdgdi5.png",
+      "languages": ["English", "Hindi", "Punjabi"]
+    },
+    "careerPreferences": {
+      "availability": "Open to freelance & teaching opportunities",
+      "lookingFor": ["Freelance projects", "Part-time teaching", "Full-time backend/frontend roles"],
+      "preferredLocations": ["Remote", "Punjab, India"]
+    },
+    "highlights": [
+      {
+        "id": "hl_001",
+        "title": "Full-Stack Web Development (MERN)",
+        "description": "Built production-ready websites and admin dashboards using React, Node.js, Express and MongoDB. Experience deploying to Vercel and other hosting platforms."
+      },
+      {
+        "id": "hl_002",
+        "title": "Education & Training",
+        "description": "Created and delivered curriculum for C, C++, Python, JavaScript and Web Development to institute students."
+      },
+      {
+        "id": "hl_003",
+        "title": "Exam & Certificate Automation",
+        "description": "Designed modules for online exams, automatic evaluation and certificate generation within institute systems."
+      }
+    ],
+    "skills": {
+      "frontend": [
+        "React.js",
+        "Next.js",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Vanilla JavaScript (ES6+)"
+      ],
+      "backend": [
+        "Node.js",
+        "Express.js",
+        "RESTful APIs",
+        "Authentication (JWT, sessions)",
+        "Server-side rendering (Next.js)"
+      ],
+      "databases": ["MongoDB", "Mongoose", "MySQL (basic)"],
+      "devopsHosting": ["Vercel", "Netlify", "Basic Linux server knowledge"],
+      "tools": [
+        "Git & GitHub",
+        "Postman",
+        "Figma (UI/UX)",
+        "VS Code",
+        "Chrome DevTools"
+      ],
+      "testing": ["Basic unit/integration testing knowledge"],
+      "other": ["Basic Python scripting", "Excel / CSV data handling"]
+    },
+    "experience": [
+      {
+        "id": "exp_001",
+        "title": "Website Programmer & Teacher",
+        "organization": "SkillUp Institute",
+        "location": "Punjab, India",
+        "startDate": "2024-07",
+        "endDate": "Present",
+        "responsibilities": [
+          "Design and maintain institute website and student/teacher dashboards.",
+          "Develop backend features: authentication, exams, certificate generation, APIs.",
+          "Create teaching content and conduct programming classes (C, C++, Python, JavaScript).",
+          "Implement integrations for reports and basic automation."
+        ],
+        "achievements": [
+          "Built exam evaluation and certificate export module (implemented inside institute platform)."
+        ]
+      },
+      {
+        "id": "exp_002",
+        "title": "Freelance / Client Projects",
+        "organization": "Independent",
+        "location": "Remote / Punjab",
+        "startDate": "2024-05",
+        "endDate": "Present",
+        "responsibilities": [
+          "Delivered small-to-medium web projects for local clients (landing pages, admin panels).",
+          "Handled basic hosting and deployment for clients on Vercel/Netlify."
+        ],
+        "achievements": []
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj_001",
+        "name": "SkillUp Institute Website",
+        "slug": "skillup-institute-website",
+        "url": "https://www.skillupinstitute.co.in/",
+        "repo": null,
+        "role": "Lead developer & maintainer",
+        "period": {
+          "from": "2024-07",
+          "to": "Present"
+        },
+        "techStack": ["Next.js", "React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+        "description": "Primary website for SkillUp Institute including student/teacher dashboards, exam modules, and certificate generation.",
+        "features": [
+          "Online exam system with answer evaluation",
+          "Automatic certificate generation for final exams",
+          "Student and staff dashboards",
+          "Admin controls for content and user management"
+        ],
+        "screenshots": []
+      },
+      {
+        "id": "proj_002",
+        "name": "Staff Management App (Design)",
+        "slug": "staff-management-app",
+        "url": null,
+        "repo": null,
+        "role": "Concept & backend implementation (prototype)",
+        "period": {
+          "from": null,
+          "to": null
+        },
+        "techStack": ["React", "Node.js", "Express", "MongoDB"],
+        "description": "Planned staff management application for assigning tasks, tracking progress and attendance — includes IP-based login concept for location control.",
+        "features": [
+          "Task assignment with status & comments",
+          "IP address based login restriction",
+          "Attendance logging and daily summaries",
+          "Admin dashboard for monitoring staff activity"
+        ],
+        "screenshots": []
+      },
+      {
+        "id": "proj_003",
+        "name": "Online Attendance System (onlineattendance-two)",
+        "slug": "online-attendance-system",
+        "url": "https://onlineattendance-two.vercel.app/",
+        "repo": null,
+        "role": "Developer",
+        "period": {
+          "from": null,
+          "to": null
+        },
+        "techStack": ["Next.js", "React", "MongoDB", "Vercel"],
+        "description": "Attendance web app used for institute student attendance management (demo/production depending on deployment).",
+        "features": [
+          "Student attendance marking",
+          "Reports for admin/teachers",
+          "Login & access controls"
+        ],
+        "screenshots": []
+      }
+    ],
+    "education": [
+      {
+        "id": "edu_001",
+        "degree": "B.Sc. (Non-Medical)",
+        "institution": null,
+        "period": "2021-2024",
+        "details": "Subjects included Physics, Mathematics and Computer Science. Passed with 69% (as stated in original CV)."
+      },
+      {
+        "id": "edu_002",
+        "degree": "M.Sc. IT (Information Technology)",
+        "institution": null,
+        "period": "Ongoing (Final Year)",
+        "details": "Final year student (previous semester score noted as 83% in source)."
+      }
+    ],
+    "certifications": [
+      {
+        "id": "cert_001",
+        "title": "HTML, CSS & JavaScript for Web Developers",
+        "issuer": "Johns Hopkins University – Coursera",
+        "date": "2024-06",
+        "url": null
+      },
+      {
+        "id": "cert_002",
+        "title": "Meta Back-End Developer – Professional Certificate",
+        "issuer": "Meta – Coursera",
+        "date": "2024-08",
+        "url": null
+      }
+    ],
+    "achievements": [
+      {
+        "id": "ach_001",
+        "title": "Course & Curriculum Development",
+        "description": "Prepared teaching material and exercises for programming courses (C, C++, Python, JavaScript and Web Development)."
+      },
+      {
+        "id": "ach_002",
+        "title": "Platform Features Delivered",
+        "description": "Implemented exam automation and certificate generation inside institute management system."
+      }
+    ],
+    "portfolioSettings": {
+      "displaySections": [
+        "person",
+        "highlights",
+        "skills",
+        "projects",
+        "experience",
+        "education",
+        "certifications",
+        "contact"
+      ],
+      "theme": {
+        "primaryColor": "#0f172a",
+        "accentColor": "#06b6d4",
+        "rounded": "2xl"
+      }
+    },
+    "contact": {
+      "email": "Manojbarhpagga@gmail.com",
+      "phone": null,
+      "address": "Punjab, India",
+      "websites": [
+        "https://www.skillupinstitute.co.in/",
+        "https://onlineattendance-two.vercel.app/",
+        "https://www.themahi.in/"
+      ],
+      "github": "https://github.com/Mahi-singh03",
+      "resumeUrl": "/mnt/data/7429b669-8083-4458-9f78-54142aae5961.pdf"
+    },
+    "notes": {
+      "createdFrom": "User-provided PDF (structured and expanded)",
+      "missing": [
+        "Phone number",
+        "Exact project start/end dates and repo links",
+        "Screenshots / banner images for projects"
+      ],
+      "nextStepsSuggestions": [
+        "Provide phone and LinkedIn if you want them shown publicly.",
+        "Add GitHub repo links for projects to enable 'View Code' buttons.",
+        "Provide screenshots or banner images (URLs) for each project for a visual portfolio."
+      ]
+    },
+    "schemas": {
+      "projectSchemaVersion": "1.0",
+      "notes": "Each project contains id, slug, url, repo, role, period, techStack, description, features, screenshots (array)."
+    }
+  }
+  
