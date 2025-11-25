@@ -1,5 +1,5 @@
 import Image from "next/image";
-import portfolioSEO from "@/src/lib/seo";
+import { DOMAIN_NAME } from "@/src/lib/seo";
 
 
 

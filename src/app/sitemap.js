@@ -1,4 +1,4 @@
-import { DOMAIN_NAME } from "@/lib/seo";
+import { DOMAIN_NAME } from "@/src/lib/seo";
 
 export default async function sitemap() {
   return [

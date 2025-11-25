@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import portfolioSEO from "@/src/lib/seo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,8 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mahi Singh",
-  description: "i am a coder",
+  ...portfolioSEO,
 };
 
 export default function RootLayout({ children }) {
