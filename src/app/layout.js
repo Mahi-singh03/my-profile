@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import portfolioSEO from "@/src/lib/seo";
+import { personSchema, organizationSchema } from "@/src/app/schema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,37 +24,18 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        {/* Person Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Manoj Barhpagga",
-              alternateName: "Mahi Singh",
-              url: "https://www.themahi.in/",
-              image:
-                "https://res.cloudinary.com/dyigmfiar/image/upload/v1759339653/staff-profiles/cyo6hxrgvyf5d1hdgdi5.png",
-              jobTitle:
-                "Full-Stack Developer (MERN) | Programmer | Instructor",
-              sameAs: [
-                "https://github.com/Mahi-singh03",
-                "https://www.skillupinstitute.co.in/",
-                "https://onlineattendance-two.vercel.app/",
-              ],
-              knowsAbout: [
-                "React.js",
-                "Next.js",
-                "Node.js",
-                "Express.js",
-                "MongoDB",
-                "Web development",
-                "Automation systems",
-                "Online exam systems",
-                "Certificate generation",
-                "Teaching C C++ Python JavaScript"
-              ]
-            })
+            __html: JSON.stringify(personSchema),
+          }}
+        />
+        {/* Organization Schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
           }}
         />
       </body>

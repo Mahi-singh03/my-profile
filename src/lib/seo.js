@@ -27,7 +27,21 @@ const portfolioSEO = {
     "Best web developer Punjab",
   ],
   metadataBase: new URL(DOMAIN),
-
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  verification: {
+    google: "your-google-site-verification-code", // Replace with actual code from Google Search Console
+    // yandex: "your-yandex-verification-code",
+  },
   openGraph: {
     title:
       "Manoj Barhpagga | Full-Stack Developer (MERN) & Programming Instructor",
@@ -44,6 +58,7 @@ const portfolioSEO = {
         width: 1200,
         height: 630,
         alt: "Manoj Barhpagga | MERN Developer",
+        type: "image/png",
       },
     ],
   },
@@ -53,6 +68,7 @@ const portfolioSEO = {
     title: "Manoj Barhpagga | MERN Developer & Instructor",
     description:
       "Full-Stack Developer & Instructor from Punjab specializing in React, Next.js, Node.js, MongoDB, automation tools and institute systems.",
+    creator: "@YourTwitterHandle", // Add your Twitter handle if you have one
     images: [
       "https://res.cloudinary.com/dyigmfiar/image/upload/v1759339653/staff-profiles/cyo6hxrgvyf5d1hdgdi5.png",
     ],
