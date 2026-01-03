@@ -1,7 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 import portfolioSEO from "@/src/lib/seo";
 import { personSchema, organizationSchema } from "@/src/app/schema";
+import { ThemeProvider } from "./components/providers/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,11 +22,23 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
-        {children}
+        <ThemeProvider
+          attribute="data-theme"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navbar />
+          <main className="flex flex-col min-h-screen">
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
+        
         {/* Person Schema */}
         <script
           type="application/ld+json"
@@ -42,3 +57,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
